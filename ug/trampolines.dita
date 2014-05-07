@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+"http://docs.oasis-open.org/dita/dtd/topic.dtd">
+<topic id="backend">
+  <title>Trampolines</title>
+
+  <abstract>
+    This is the abstract.  It should be italic.
+  </abstract>
+
+  <body>
+    <p>
+      What is a trampoline?  What problem do trampolines solve?  How
+      does one use Leiningen's trampoline facility?
+    </p>
+    <section>
+      <title></title>
+      <p>
+	<note type="important">
+	  and this is an important note, demonstrating an xsl override!
+	</note>
+      </p>
+    </section>
+
+    <example>
+      <title>Here's an example</title>
+      <codeblock>...containing a codeblock...</codeblock>
+    </example>
+
+  </body>
+
+  <related-links>
+    <!-- <link href="foo.dita"> -->
+    <!--   <linktext/> -->
+    <!-- </link> -->
+  </related-links>
+</topic>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"../dtd/concept.dtd">
+<concept id="silp" xml:lang="en-us">
+
+  <title>Structure and Interpretation of Leiningen Projects</title>
+
+  <abstract>Abstract: a project in Leiningen has a static structure
+  and a dynamic (runtime) interpretation.</abstract>
+
+  <prolog><metadata>
+    <keywords><indexterm>Project<indexterm>structure</indexterm></indexterm></keywords>
+  </metadata></prolog>
+
+  <conbody>
+
+    <p>
+      Structure: the project config map + profiles
+    </p>
+
+    <p>
+      Interpretation: combination of project config map and profiles
+    </p>
+
+  </conbody>
+</concept>

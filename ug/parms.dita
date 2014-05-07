@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+"http://docs.oasis-open.org/dita/dtd/topic.dtd">
+<topic id="parmsnopts">
+  <title>Parameters and Options</title>
+
+  <body>
+    <p>
+      Terminology: in keeping with standard Unix usage, we reserve the
+      term <i>option</i> for bits of state that control the behavior
+      of software.  For example, many command line tools have a
+      <q>verbose</q> option that controls how much information the
+      tool dumps the stdout/stderr as it executes.
+    </p>
+
+    <p>
+      In order to specify (or set) an option, the user must supply the
+      appropriate <i>parameter</i> as part of the command.
+      Alternatively, software commonly accepts parameters stored in
+      environment variables.  Yet a third alternative is to accept
+      parameters specified in a configuration file.
+    </p>
+
+    <p>
+      In practice the distinction between options and parameters in
+      this sense is overlooked or not even noticed in the first place,
+      with no ill effect.  But for the sake of clarity, it is useful
+      to respect the distinction when it comes to Leiningen.  There
+      are two reasons for this.
+    </p>
+
+    <p>
+      First, Leiningen project files may contain parameters for any
+      number of programs, each of which support different options.  So
+      although it makes sense to think of the project map as a kind of
+      configuration file, it is not like the configuration files
+      specific to particular software packages.  For example, Jetty
+      depends heavily on configuration files that are specific to
+      Jetty; there is no reason to put anything in a Jetty
+      configuration file that Jetty would not understand.  A Leiningen
+      project map, by contrast, ordinarily will contain parameters for
+      several different software components.
+    </p>
+
+    <p>
+      Second, Leiningen places no constraints on the representation of
+      any option.  Since Leiningen is extensible via plugins, the most
+      Leiningen can do is provide a means of associating a value with
+      a key - a Clojure map.  It then becomes the responsibility of
+      the plugin to correctly interpret the key-value pair (which we
+      call a <i>parameter</i>).  This means in particular that a
+      plugin designer can choose key and value names for configuration
+      parameters that are completely different than their
+      corresponding software options.
+    </p>
+
+    <p>
+      A simple example: the <cmdname>java</cmdname> command
+      understands a <q>max heap size</q> option, whose command line
+      parameter is <cmdname>-Xmx&lt;size></cmdname>.  Leiningen does
+      not directly support this as a configuration parameter, however;
+      instead it has a <cmdname>:jvm-opts</cmdname> parameter, whose
+      value can be anything <cmdname>java</cmdname> understands to be
+      an option-setting parameter.  So Leiningen must <i>construct</i>
+      the appropriate command line from the project map parameters.
+      Furthermore, it is possible to choose completely different
+      names; for example, Leiningen could have used <q>semantic</q>
+      parameters; in this example, it could have supported a
+      <cmdname>:jvm-max-heap</cmdname> parameter that takes a number
+      in MB as a value; or, it could have used a nested map,
+      e.g. <cmdname>:jvm-opts {:heap {:max 512 :min 64}}</cmdname>.
+    </p>
+
+    <p>
+      So for the sake of clarity we will always refer to the key-value
+      pairs in the project map as <i>parameters</i>, and refer to the
+      software state controlled by such parameter
+      A given parameter is not necessarily specific to a particular
+      software component, whereas options are always
+      software-specific.
+    </p>
+
+    <section>
+      <title></title>
+      <p>
+    </p>
+    </section>
+
+  </body>
+
+  <related-links>
+    <!-- <link href="foo.dita"> -->
+    <!--   <linktext/> -->
+    <!-- </link> -->
+  </related-links>
+</topic>

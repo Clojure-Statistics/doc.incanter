@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+"http://docs.oasis-open.org/dita/dtd/topic.dtd">
+<topic id="tasks.preinstalled">
+  <title>Preinstalled tasks</title>
+
+  <body>
+    <p>
+      Overview ...
+    </p>
+
+    <section>
+
+      <dl>
+	<dlhead>
+	  <dthd>Leiningen 2.3.2 Standard Tasks</dthd>
+	  <!-- <ddhd>Resulting Information</ddhd> -->
+	</dlhead>
+	<dlentry>
+	  <dt>check</dt>
+	  <dd>Check syntax and warn on reflection.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>classpath</dt><dd>Write the classpath of the current project to output-file.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>clean</dt><dd>Remove all files from paths in project's clean-targets.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>compile</dt><dd>Compile Clojure source into .class files.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>deploy</dt><dd>Deploy jar and pom to remote repository.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>deps</dt><dd>Show details about dependencies.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>difftest</dt><dd></dd>
+	</dlentry>
+	<dlentry>
+	  <dt>do</dt><dd>Higher-order task to perform other tasks in succession.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>help</dt><dd>Display a list of tasks or help for a given task or subtask.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>install</dt><dd>Install current project to the local repository.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>jar</dt><dd>Package up all the project's files into a jar file.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>javac</dt><dd>Compile Java source files.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>localrepo</dt><dd>Work with local Maven repository</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>marg</dt><dd>Run Marginalia against your project source files.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>mustache</dt><dd>Evaluate a Mustache template.</dd>
+	</dlentry>
+
+	<dlentry>
+	  <dt>new</dt><dd>Generate scaffolding for a new project based on a template.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>plugin</dt><dd>DEPRECATED. Please use the :user profile instead.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>pom</dt><dd>Write a pom.xml file to disk for Maven interoperability.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>pprint</dt><dd>Pretty-print a representation of the project map.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>repl</dt><dd>Start a repl session either with the current project or standalone.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>retest</dt><dd>Run only the test namespaces which failed last time around.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>run</dt><dd>Run the project's -main function.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>search</dt><dd>Search remote maven repositories for matching jars.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>show-profiles</dt><dd>List all available profiles or display one if given an argument.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>swank</dt><dd>obsolete??</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>test</dt><dd>Run the project's tests.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>trampoline</dt><dd>Run a task without nesting the project's JVM inside Leiningen's.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>uberjar</dt><dd>Package up the project files and all dependencies into a jar file.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>update-in</dt><dd>           Perform arbitrary transformations on your project map.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>upgrade</dt><dd>Upgrade Leiningen to specified version or latest stable.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>version</dt><dd>Print version for Leiningen and the current JVM.</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>with-profile</dt><dd>Apply the given task with the profile(s) specified.</dd>
+	</dlentry>
+      </dl>
+    </section>
+
+  </body>
+
+  <related-links>
+    <!-- <link href="foo.dita"> -->
+    <!--   <linktext/> -->
+    <!-- </link> -->
+  </related-links>
+</topic>

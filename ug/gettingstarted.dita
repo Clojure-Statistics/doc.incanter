@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+ "../../dtd/topic.dtd">
+<topic id="configuring" xml:lang="en-us">
+<title>Getting Started</title>
+<shortdesc>We get started by first exploring a minimal project, and
+then exploring the Leiningen infrastructure.  This should give us a
+good general idea of what pieces are involved and how the work
+together.</shortdesc>
+<body>
+<p>
+  Before delving into the details we take a brief tour of:
+</p>
+<ul>
+  <li>A minimal project</li>
+  <li>The Leiningen infrastructure</li>
+</ul>
+</body>
+</topic>

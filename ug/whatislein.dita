@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"../dtd/concept.dtd">
+<concept id="commands" xml:lang="en-us">
+  <title>What is Leiningen?</title>
+  <shortdesc>
+      Leiningen is a collection of commands that address developer tasks
+      and needs.  It depends on a kernel of core functionality, a set of
+      plugins that implement the commands available to users, and a set
+      of external resources - directories, files, maven repositories,
+      etc.
+  </shortdesc>
+
+  <conbody>
+
+    <p>
+      Leiningen can be compared to Emacs.  Emacs consists of a kernel
+      of core functionality (implemented in C) made available to the
+      user by means of commands or functions defined in Elisp, just
+      like user-defined functions and commands.  Leiningen also has a
+      kernel of core functionality (implemented in Clojure) that is
+      made available to users by means of <term>plugins</term>, which
+      define Leiningen <term>commands</term>; user-defined commands
+      are implemented in the same way.
+    </p>
+
+  </conbody>
+</concept>

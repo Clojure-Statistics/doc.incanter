@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+"http://docs.oasis-open.org/dita/dtd/topic.dtd">
+<topic id="backend">
+  <title>Templates</title>
+
+  <body>
+    <p>
+      All you really need to know is <userinput>lein new</userinput>.
+    </p>
+
+    <p>
+      A word here about how Leiningen finds templates, and about
+      clojars, so the user can troubleshoot in case something goes
+      wrong.
+    </p>
+
+    <p>
+      See the Developer's Manual for information on how to write your own templates.
+    </p>
+
+  </body>
+
+</topic>

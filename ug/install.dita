@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+"http://docs.oasis-open.org/dita/dtd/topic.dtd">
+<topic id="backend">
+  <title>Installation</title>
+
+  <body>
+    <section>
+      <title>Unix-like systems</title>
+      <p>
+	If your preferred <xref format="html"
+	href="https://github.com/technomancy/leiningen/wiki/Packaging"
+	scope="external">package manager</xref> has a relatively recent
+	version of Leiningen, try that first.  Otherwise you can install
+	by hand:
+      </p>
+
+      <p>
+	Leiningen bootstraps itself using the <cmdname>lein</cmdname>
+	shell script; there is no separate install script. It handles
+	installing its own dependencies, which means the first run will
+	take longer.
+      </p>
+
+      <ol>
+	<li>Make sure you have a Java JDK version 6 or later.</li>
+	<li><xref
+		href="https://raw.github.com/technomancy/leiningen/stable/bin/lein"
+		scope="external">Download the script</xref></li>
+	<li>Place it on your
+	<varname>$PATH</varname>. (<filepath>~/bin</filepath> is a good
+	choice if it is on your path.)</li>
+	<li>Set it to be executable. (<cmdname>chmod 755 ~/bin/lein</cmdname>)</li>
+      </ol>
+    </section>
+
+    <section>
+      <title>Windows</title>
+
+      <p>
+	There is an <xref
+	href="http://leiningen-win-installer.djpowell.net/"
+	scope="external">installer</xref>
+	which will handle downloading and placing Leiningen and its
+	dependencies.
+      </p>
+
+      <p>
+	The manual method of putting the <xref
+	href="https://raw.github.com/technomancy/leiningen/stable/bin/lein.bat"
+	scope="external">batch file</xref>. on your
+	<varname>PATH</varname> and running <userinput>lein
+	self-install</userinput> should still work for most users. If
+	you have Cygwin you should be able to use the shell script
+	above rather than the batch file.
+      </p>
+    </section>
+  </body>
+
+  <!-- <related-links> -->
+    <!-- <link href="embed2.dita"> -->
+    <!--   <linktext/> -->
+    <!-- </link> -->
+  <!-- </related-links> -->
+</topic>

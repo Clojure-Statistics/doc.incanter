@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+    Sourceforge.net. See the accompanying license.txt file for 
+    applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2007 All Rights Reserved. -->
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="notices" xml:lang="en-us">
+<title>Notice</title>
+<shortdesc>This information was developed for products and services offered in the U.S.A.</shortdesc>
+<conbody>
+<p>This product is meant for educational purposes only.
+Some of the trademarks mentioned in this product appear for identification purposes only.
+Not responsible for direct, indirect, incidental or consequential damages resulting from any defect, error or failure to perform.
+Any resemblance to real persons, living or dead is purely coincidental.
+Void where prohibited.
+Some assembly required.
+Batteries not included.
+Use only as directed.
+Do not use while operating a motor vehicle or heavy equipment.
+Do not fold, spindle or mutilate.
+Do not stamp.
+No user-serviceable parts inside.
+Subject to change without notice.
+Drop in any mailbox.
+No postage necessary if mailed in the United States.
+Postage will be paid by addressee.
+Post office will not deliver without postage.
+Some equipment shown is optional.
+Objects in mirror may be closer than they appear.
+Not recommended for children.
+Your mileage may vary.
+</p>
+<p>No other warranty expressed or implied.
+This supersedes all previous notices.</p>
+<section>
+  <title>COPYRIGHT LICENSE:</title>
+  <p>
+<xref scope="external"
+      format="html"
+      href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+  <image align="center"
+	 href="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png"
+	 otherprops="media=print"
+	 width="2cm"/>
+</xref>
+  </p>
+<p>
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
+</p>
+<!-- <br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Mulgara User's Guide</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Gregg Reynolds</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>. -->
+
+</section>
+</conbody>
+</concept>

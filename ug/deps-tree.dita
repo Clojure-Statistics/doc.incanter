@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+"http://docs.oasis-open.org/dita/dtd/topic.dtd">
+<topic id="backend">
+  <title>Dependency Trees</title>
+
+  <body>
+    <p>
+      How does Leiningen figure out the dependency tree?  How does it manage to fetch al l the required jars?  How does it manage to add stuff to the classpath?
+
+      <dl>
+	<dlentry>
+	<dt><xref scope="external"
+		  href="https://github.com/cemerick/pomegranate">Pomegranate</xref>
+	</dt>
+	<dd>Clojure wrapper for Aether.  Aether is what handles
+	dependency resolution (i.e. figuring out the transitive
+	dependency graph).</dd>
+	</dlentry>
+
+	<dlentry>
+	<dt><xref scope="external"
+		  href="http://www.eclipse.org/aether/">Aether</xref>
+	</dt>
+	<dd><q>Aether is a library for working with artifact
+	repositories. Aether deals with the specification of local
+	repository, remote repository, developer workspaces, artifact
+	transports, and artifact resolution.</q> For details on how
+	Aether determines the dependency graph see <xref
+	scope="external"
+	href="http://wiki.eclipse.org/Aether/Transitive_Dependency_Resolution">Aether/Transitive
+	Dependency Resolution</xref> and <xref scope="external"
+	href="http://wiki.eclipse.org/Aether/Dependency_Graph">Aether/Dependency
+	Graph</xref>.</dd>
+	</dlentry>
+
+	<dlentry>
+	  <dt><xref scope="external"
+		    href="https://github.com/flatland/classlojure">Classlojure</xref>
+	  </dt>
+	  <dd><q>classlojure lets you easily create a classloader with
+	  an alternate classpath and evaluate clojure forms in
+	  it. This classloader can even use a different version of
+	  clojure than your primary classloader.</q>
+	  </dd>
+	</dlentry>
+	<dlentry>
+	  <dt>
+	    <xref scope="external"
+		  href="https://github.com/Raynes/bultitude">Bultitude</xref>
+	  </dt>
+	  <dd>
+	    <q>Bultitude is a library for finding namespaces on the classpath.</q>
+	  </dd>
+	</dlentry>
+      </dl>
+    </p>
+
+    <note>
+      How much of all this does the user really need to know?
+    </note>
+  </body>
+</topic>

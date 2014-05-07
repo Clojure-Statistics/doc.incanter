@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"../dtd/concept.dtd">
+<concept id="effectiveprojmap" xml:lang="en-us">
+  <title>The Effective Project Map</title>
+  <shortdesc>
+    The <term>effective project map</term> is dynamically constructed
+    by combining the project config map and various other maps
+  </shortdesc>
+
+  <prolog><metadata>
+    <keywords>
+	<indexterm>
+	  Map
+	  <indexterm>Effective</indexterm>
+	  <index-see-also>Project</index-see-also>
+	</indexterm>
+      <indexterm>
+      	Project <indexterm>effective map
+      	<index-see>Effective project map</index-see>
+      	</indexterm>
+      </indexterm>
+      <indexterm>
+	Effective project map
+	<index-see-also>
+	  Project configuration map
+	</index-see-also>
+	<index-see-also>Map</index-see-also>
+	<index-see-also>Project</index-see-also>
+      </indexterm>
+    </keywords>
+  </metadata></prolog>
+
+  <conbody>
+
+    <p>
+      Leiningen command implementations receive the effective
+      project map as an argument when they are invoked.
+    </p>
+
+    <p>
+      General description of how L constructs the <term>effective
+      project map</term> from project.clj/defproject in combination
+      with various other maps.  This is one of the basic jobs of the
+      kernel.  For details, refer to the Project Map node.
+    </p>
+
+  </conbody>
+</concept>

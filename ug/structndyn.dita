@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"../dtd/concept.dtd">
+<concept id="structndyn" xml:lang="en-us">
+  <title>Structure &amp; Dynamics of Leiningen Projects</title>
+  <shortdesc>
+  </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+	<indexterm>Leiningen kernel</indexterm>
+	<indexterm>Architecture</indexterm>
+	<indexterm>Infrastructure</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <conbody>
+
+    <p>
+      Structure of project: project config map (in project.clj)
+      determines dir structure.
+    </p>
+
+    <p>
+      Dynamics: when a lein command is invoked, lein dynamically
+      constructs the effective project map and invokes the command,
+      passing the EPM as arg.  The command inspects the map and uses
+      its content to control its processing.
+    </p>
+
+  </conbody>
+
+</concept>

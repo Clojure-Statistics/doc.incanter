@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+"http://docs.oasis-open.org/dita/dtd/topic.dtd">
+<topic id="backend">
+  <title>Embedding Leiningen</title>
+
+  <body>
+    <p>
+      Leiningen is a Clojure library.  You can use it from your own code.
+    </p>
+
+    <p>
+      Should this go in a separate <q>Developer's Manual</q>?
+    </p>
+
+  </body>
+
+</topic>

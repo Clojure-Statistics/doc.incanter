@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN"
+"../dtd/task.dtd">
+
+<!-- This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA. -->
+
+<task id="test.unit.proc" xml:lang="en-us">
+  <title>Unit Testing Procedure</title>
+
+  <abstract></abstract>		<!-- OPTIONAL -->
+
+  <prolog>			<!-- OPTIONAL -->
+    <metadata>
+      <keywords>
+	<indexterm>Testing procedure<indexterm>unit</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <taskbody>
+
+    <prereq>			<!-- OPTIONAL -->
+      Your code compiles.
+    </prereq>
+
+    <context>			<!-- OPTIONAL -->
+      <p>
+	Decide which unit testing framework you want to use.  Clojure
+	comes with its own framework (<codeph>Clojure.test</codeph>),
+	but there are others available, e.g. <xref scope="external"
+	href="https://github.com/slagyr/speclj">speclj
+	(<q>speckle</q>)</xref>, <xref scope="external"
+	href="https://github.com/marick/Midje">midje</xref>.  A
+	clojure plugin is available for midje.
+      </p>
+      <p>
+	This mini-tutorial covers only Clojure.test.
+      </p>
+    </context>
+
+    <!-- THE TASK PROCECDURE -->
+    <steps>			<!-- REQUIRED -->
+      <step>			<!-- REQUIRED -->
+	<cmd>			<!-- REQURIED -->
+	  Do x by running <userinput>frob -x</userinput>
+	</cmd>
+	<stepresult>		<!-- OPTIONAL -->
+	  You should see something like:
+	  <pre>
+	    ...screen dump here...
+	  </pre>
+	</stepresult>
+      </step>
+
+      <step>			<!-- REQUIRED -->
+	<note type="caution">	<!-- OPTIONAL -->
+	  Be sure you have safasfd before doing this!
+	</note>
+	<cmd>			<!-- REQURIED -->
+	  Start out by xing using one of the following methods:.
+	</cmd>
+	<choices>		<!-- OPTIONAL -->
+	  <choice>Using this method: <userinput>barfoo</userinput></choice>
+	  <choice>Or this method: <userinput>bazfoo</userinput></choice>
+	</choices>
+	<stepresult>		<!-- OPTIONAL -->
+	  You should see something like:
+	  <pre>
+	    ...screen dump here...
+	  </pre>
+	</stepresult>
+      </step>
+
+      <step>					 <!-- OPT -->
+	<cmd>Then this, which you do by:</cmd> <!-- REQD -->
+	<substeps>		<!-- OPTIONAL -->
+	  <substep><cmd>doing this</cmd></substep>
+	  <substep>
+	    <cmd>and then this.</cmd>
+	    <stepxmp>
+	      For example:	<!-- OPTIONAL -->
+	      <codeblock>		<!-- OPTIONAL -->
+		... sample code here...
+	      </codeblock>
+	    </stepxmp>
+	  </substep>
+	</substeps>
+      </step>
+
+      <step>
+	<cmd>And finally, this, which varies by platform:</cmd>
+	<choicetable>
+	  <chhead><choptionhd>Operating System</choptionhd><chdeschd>Step</chdeschd>
+	  </chhead>
+	  <chrow>
+	    <choption>On Linux</choption>
+	    <chdesc><userinput>foo.sh</userinput></chdesc>
+	  </chrow>
+	  <chrow>
+	    <choption>On Windows</choption>
+	    <chdesc><userinput>foo.bat</userinput></chdesc>
+	  </chrow>
+	</choicetable>
+      </step>
+    </steps>
+
+    <result>			<!-- OPTIONAL -->
+      <p>
+	Expected outcome of task as a whole...
+      </p>
+    </result>
+
+    <postreq>			<!-- OPTIONAL -->
+      <p>
+	Once you've finished this task, go on to ...
+      </p>
+    </postreq>
+
+  </taskbody>
+</task>

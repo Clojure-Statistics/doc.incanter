@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"../dtd/concept.dtd">
+<concept id="projmap" xml:lang="en-us">
+  <title>Project Maps</title>
+  <shortdesc>The central concept of Leiningen is the <term>project
+  map</term>.</shortdesc>
+
+  <prolog><metadata>
+    <keywords><indexterm>Project<indexterm>map</indexterm></indexterm></keywords>
+  </metadata></prolog>
+
+  <conbody>
+
+    <p>
+      What does a project map look like?  An ordinary Clojure map:
+      set of key-val pairs.  In the project map, keys are always
+      Clojure :-prefixed keys.  L defines a default set of keys;
+      users are free to extend this set.
+    </p>
+  </conbody>
+</concept>

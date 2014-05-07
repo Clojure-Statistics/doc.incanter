@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+"http://docs.oasis-open.org/dita/dtd/topic.dtd">
+<topic id="backend">
+  <title>Template Development</title>
+
+  <body>
+    <p>
+      How to implement custom templates.
+    </p>
+
+    <p>
+      Should this go in a separate <q>Developer's Manual</q>?
+    </p>
+
+  </body>
+
+</topic>

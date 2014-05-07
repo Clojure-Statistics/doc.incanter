@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+"http://docs.oasis-open.org/dita/dtd/topic.dtd">
+<topic id="contrib">
+  <title>Contributing to this document</title>
+
+  <shortdesc>WARNING: Document design can be hazardous to your other
+  interests. (Apologies to Knuth)</shortdesc>
+  <body>
+    <p>
+      This is a DITA document.  The original is available from the
+      <xref format="html"
+      href="https://github.com/greynolds/leiningen-doc">github project</xref>.
+    </p>
+    <p>
+      Please use the <xref format="html"
+      href="https://github.com/greynolds/leiningen-doc/issues">Issues
+      Tracker</xref> to register bugs, corrections, enhancement
+      requests, etc.  Alternatively, you can clone the repository and
+      edit the text directly.  If you do please credit yourself in the
+      metadata.
+    </p>
+
+    <section>
+      <title>Intellectual property</title>
+      <p>
+	This work is licensed under the Creative Commons
+	Attribution-NonCommercial-ShareAlike 3.0 Unported License. To
+	view a copy of this license, visit
+	http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a
+	letter to Creative Commons, 171 Second Street, Suite 300, San
+	Francisco, California, 94105, USA.
+      </p>
+    </section>
+
+    <section>
+      <title>DITA</title>
+      <p>
+	<xref format="html"
+	href="http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=dita">DITA</xref>
+	(Darwin Information Typing Architecture) is an <xref
+	format="html"
+	href="http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=dita">OASIS
+	Standard</xref> for writing, managing, and publishing
+	information.  It supports "topic-based" authoring.
+      </p>
+      <p>
+	The <xref format="html"
+	href="http://dita.xml.org/book/dita-wiki-knowledgebase">DITA
+	Wiki Knowledgebase</xref> contains lots of information on
+	DITA, from introductions and overviews to detailed
+	documentation.
+      </p>
+
+      <p>
+	Another good overview is <xref format="html"
+	href="http://www.xmlmind.com/tutorials/DITA/index.html">DITA
+	for the Impatient</xref> from <xref format="html"
+	href="http://www.xmlmind.com/tutorials/DITA/">XMLMind</xref>.
+      </p>
+      <p>
+	The <xref format="html"
+	href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/ditaref-type.html">DITA
+	Language Specification</xref> documents the elements and
+	atributes of the DITA Schema.
+      </p>
+    </section>
+    <section>
+      <title>Tools</title>
+      <p>
+	There are two open source DITA transformation tools available:
+	<ul>
+	  <li>
+	    <xref format="html"
+		  href="http://dita-ot.sourceforge.net/">DITA Open
+	    Toolkit</xref>
+	  </li>
+	  <li>
+	    <xref format="html"
+		  href="http://www.xmlmind.com/ditac/">XMLMind DITA
+	    Converter</xref>
+	  </li>
+	</ul>
+      </p>
+
+    </section>
+  </body>
+
+  <related-links>
+    <!-- <link href="embed2.dita"> -->
+    <!--   <linktext/> -->
+    <!-- </link> -->
+  </related-links>
+</topic>

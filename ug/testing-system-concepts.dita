@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "../dtd/concept.dtd">
+<!-- This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA. -->
+
+<concept id="test.sys" xml:lang="en-us">
+  <title>System Testing Concepts</title> <!-- REQUIRED -->
+
+  <abstract>Abstract...</abstract>		<!-- OPTIONAL -->
+
+  <prolog>
+    <metadata>
+      <keywords>
+	<indexterm>Testing<indexterm>system</indexterm></indexterm>
+	<indexterm>System testing
+	<index-see>Testing</index-see></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+<conbody>			<!-- REQUIRED -->
+
+<p>
+  General description of system testing task and problems...
+</p>
+
+</conbody>
+</concept>

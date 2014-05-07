@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "../dtd/concept.dtd">
+<concept id="classpath" xml:lang="en-us">
+<title>Classpath</title>
+
+<prolog><metadata>
+<keywords><indexterm>Classpath</indexterm></keywords>
+</metadata></prolog>
+
+<conbody>
+
+<p>
+  Lein 1 put all deps in lib, which is on the classpath.  Lein 2 puts
+  them all in <filepath>~/.m2/repository</filepath>.  At run time,
+  Leiningen arranges to add the appropriate filepaths to the jars in
+  <filepath>~/.m2/repository</filepath> to the classpath.
+</p>
+
+<p>
+  This can be problematic in some circumstances.  For example, Google
+  App Engine uses a modified version of Jetty that disallows loading
+  code from outside of the <filepath>war/WEB-INF</filepath> directory,
+  so references to jars under <filepath>~/.m2/repository</filepath>
+  have no effect.  In this case you must copy the jars to
+  <filepath>war/WEB-INF/lib</filepath>.
+</p>
+
+<p>
+  <userinput>lein classpath</userinput>
+</p>
+
+</conbody>
+</concept>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"../dtd/concept.dtd">
+<concept id="versioncontrol" xml:lang="en-us">
+  <title>Version Control and Release Management</title>
+  <shortdesc>
+      Leiningen is a configuration management tool; how does it interact
+      with version control and release management?.
+  </shortdesc>
+  <!--INDEX ENTRIES: Below is the tagging needed for index entries.  To add an
+      index entry, insert the <indexterm> tag inside the <keywords> tag.
+      See the Derby Documentation page for guidelines on indexing a topic. -->
+  <prolog><metadata>
+    <keywords>
+      <indexterm>Version Control</indexterm>
+      <indexterm>Release Management</indexterm>
+      <indexterm>Deployment</indexterm>
+    </keywords>
+  </metadata>
+  </prolog>
+  <conbody>
+
+    <note>
+      TODO:
+      Related topic: integration with issue tracking systems, such
+      that committing a good bug-fix automatically closes the
+      associated issue and everything ends up with correct meta data
+      and xrefs, etc.  E.g. the issue is annotated with the ID of the
+      commit that fixed it, and the commit is annotated with the ID of
+      the issue it fixes.
+    </note>
+
+    <p>
+      An organization (company, development team, etc.)  may set
+      various Quality Assurance policies; code that fails to satisfy
+      those policies cannot be promoted to production status.
+    </p>
+
+    <conbodydiv>
+      <section>
+	<p>For example:</p>
+      </section>
+      <example>
+	<title>Policy 83x-43AB: Opening Braces (Java)</title>
+	<p>
+	  The opening brace of an
+	  <codeph>if</codeph> statement must be on the same line as
+	  <codeph>if</codeph>.
+	</p>
+	<p>
+	  This is acceptable:
+	  <codeblock>
+	    if {
+	    ...
+	    }
+	  </codeblock>
+	</p>
+	<p>
+	  This is <i>not</i> acceptable:
+	  <codeblock>
+	    if
+	    {
+	    ...
+	    }
+	  </codeblock>
+	</p>
+      </example>
+      <example>
+	<title>Policy LBD24435: Anonymous Functions (Clojure)</title>
+	<p>
+	  For anonymous functions of at most one argument use
+	  <codeph>#{}</codeph> syntax.
+	</p>
+	<p>
+	  For anonymous functions of two or more arguments, use
+	  <codeph>(fn ...)</codeph> syntax and give arguments
+	  meaningful names.
+	</p>
+      </example>
+    </conbodydiv>
+
+    <conbodydiv>
+      <section>
+      <p>
+	Such rules can be automatically enforced by running some code that
+	checks for violations.  Installing a "hook" to run such vetting code
+	at check-in time would ensure that only conformant code makes it
+	into the main branch.  This would be under the control of the
+	version control system.  But it could also be integrated into the
+	configuration management system.
+      </p>
+
+      <p>
+	This article discusses how Leiningen might be used in such an
+	environment.
+      </p>
+      </section>
+    </conbodydiv>
+
+  </conbody>
+</concept>

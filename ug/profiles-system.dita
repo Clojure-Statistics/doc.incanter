@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+"http://docs.oasis-open.org/dita/dtd/topic.dtd">
+<topic id="profiles.system">
+  <title>System Profiles</title>
+
+  <prolog><metadata>
+    <keywords>
+      <indexterm>Profiles<indexterm>system</indexterm></indexterm>
+    </keywords>
+  </metadata></prolog>
+
+
+  <body>
+    <p>
+      Several profiles are predefined by Leiningen:
+    </p>
+    <section>
+      <title>:base</title>
+      <p>
+	The <codeph>:base</codeph> profile
+      </p>
+    </section>
+    <section>
+      <title>:system</title>
+      <p>
+	The <codeph>:system</codeph> profile
+      </p>
+    </section>
+    <section>
+      <title>:user</title>
+      <p>
+	The <codeph>:user</codeph> profile
+      </p>
+    </section>
+
+  </body>
+
+  <related-links>
+    <!-- <link href="foo.dita"> -->
+    <!--   <linktext/> -->
+    <!-- </link> -->
+  </related-links>
+</topic>

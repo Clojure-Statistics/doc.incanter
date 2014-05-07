@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "../dtd/concept.dtd">
+<concept id="commands" xml:lang="en-us">
+<title>Commands</title>
+<shortdesc>Leiningen <term>commands</term> (formerly <q>tasks</q>) expose functionality to the user.</shortdesc>
+<prolog><metadata>
+<keywords><indexterm>Command</indexterm></keywords>
+</metadata></prolog>
+
+<conbody>
+
+<p>
+  Commands are what you would expect: something you type to tell lein what to do.
+</p>
+
+<p>
+  L comes with a set of predefined commands.  Users can extend this
+  set by writing a <term>plugin</term>, which is the implementation of
+  a command.  There is no technical difference between L's predefined
+  commands and user-defined commands.
+</p>
+
+</conbody>
+</concept>

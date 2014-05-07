@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+"http://docs.oasis-open.org/dita/dtd/topic.dtd">
+<topic id="ug-abstract">
+  <title>Abstract</title>
+
+  <body>
+    <p>
+      User Guide for Leiningen.  See also the Technical Manual.
+    </p>
+  </body>
+</topic>

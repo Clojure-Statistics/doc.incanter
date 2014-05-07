@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+"http://docs.oasis-open.org/dita/dtd/topic.dtd">
+<topic id="backend">
+  <title>Dependency Management</title>
+
+  <body>
+    <p>
+      Compare: in C (makefiles), dependencies are source files.  In Leiningen,
+      dependencies are jars.
+    </p>
+
+    <p>Problem: how to identify dependenies?  Solution: use
+    Leiningen's convention of <q>GROUP-ID/ARTIFACT-ID "VERSION"</q> is
+    based on Maven.  See <xref scope="external"
+    href="http://maven.apache.org/glossary.html#Artifact">Maven
+    Glossary</xref>, <xref scope="external"
+    href="http://maven.apache.org/guides/mini/guide-naming-conventions.html">Maven
+    Guide to naming conventions on groupId, artifactId and
+    version</xref>.
+    </p>
+
+    <p>
+      Use of <userinput>lein deps</userinput> and <userinput>lein deps
+      :tree</userinput>.
+    </p>
+
+    <p>
+      Problem: how does Leiningen search?  Soln: describe :repos.
+      Something about using local repos.
+    </p>
+
+    <p>
+      Problem: what to do if Leiningen fails to find the dependency.
+      Interpreting error messages.
+    </p>
+
+    <section>
+      <title>Dependency Versions</title>
+      <p>
+	The problem: how do I automatically make sure I'm using the
+	latest versions of my dependencies?
+      </p>
+      <p>
+See <xref scope="external"
+href="http://stackoverflow.com/questions/5693621/keeping-dependency-versions-up-to-date-in-leiningen-projects">this
+stackoverlow question</xref> about using the latest verion of deps.
+    </p>
+    </section>
+
+    
+
+  </body>
+
+  <related-links>
+    <!-- <link href="foo.dita"> -->
+    <!--   <linktext/> -->
+    <!-- </link> -->
+  </related-links>
+</topic>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"../dtd/concept.dtd">
+<concept id="projconfigmap" xml:lang="en-us">
+  <title>The Project Configuration Map</title>
+  <shortdesc>The <term>project configuration map</term> is defined by
+  <apiname>defproject</apiname> macro in the
+  <filepath>project.clj</filepath> file in the project <term>root
+  directory</term>.</shortdesc>
+
+  <prolog>
+    <metadata>
+      <keywords>
+	<indexterm>
+	  Map
+	  <indexterm>Project configuration</indexterm>
+	  <index-see-also>Project</index-see-also>
+	</indexterm>
+	<indexterm>
+	  Project configuration map
+	  <index-see>Map</index-see>
+	</indexterm>
+	<indexterm>
+	  Project <indexterm>configuration map</indexterm>
+	  <index-see-also>Effective project map</index-see-also>
+	  <index-see-also>Map</index-see-also>
+	</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <conbody>
+
+    <p>
+      Terminology: the <term>project configuration map</term> is
+      specified as part of <codeph>defproject</codeph> in
+      <filepath>project.clj</filepath>.  The <term>effective project
+      map</term> is dynamically constructed by combining the project
+      config map and various other maps - see X for details.
+    </p>
+  </conbody>
+</concept>

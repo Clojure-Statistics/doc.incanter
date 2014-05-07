@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+"http://docs.oasis-open.org/dita/dtd/topic.dtd">
+<topic id="profiles">
+  <title>Profiles</title>
+
+  <prolog><metadata>
+    <keywords>
+      <indexterm>Profiles</indexterm>
+      <indexterm>:base <index-see-also>Profiles</index-see-also></indexterm>
+      <indexterm>:system <index-see-also>Profiles</index-see-also></indexterm>
+      <indexterm>:user <index-see-also>Profiles</index-see-also></indexterm>
+      <indexterm>:dev <index-see-also>Profiles</index-see-also></indexterm>
+      <indexterm>:provided <index-see-also>Profiles</index-see-also></indexterm>
+    </keywords>
+  </metadata></prolog>
+
+
+  <body>
+    <p>
+      Overview ...
+    </p>
+    <section>
+      <title></title>
+      <p>
+    </p>
+    </section>
+
+  </body>
+
+  <related-links>
+    <!-- <link href="foo.dita"> -->
+    <!--   <linktext/> -->
+    <!-- </link> -->
+  </related-links>
+</topic>

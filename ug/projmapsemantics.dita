@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"../dtd/concept.dtd">
+<concept id="projmapsemantics" xml:lang="en-us">
+  <title>Project Map Semantics</title>
+  <shortdesc>Project map semantics are determined by command
+  implementations.</shortdesc>
+
+  <prolog><metadata>
+    <keywords>
+      <indexterm>Map<indexterm>semantics</indexterm></indexterm>
+      <indexterm>Project<indexterm>map semantics</indexterm></indexterm>
+      <indexterm>Semantics
+      <indexterm>Project map</indexterm>
+      </indexterm>
+    </keywords>
+  </metadata></prolog>
+
+  <conbody>
+
+    <p>
+      What are the semantics of the (effective) project map?
+      Determined entirely by the command implementations.  All
+      Leiningen commands use the effective project map, which is
+      delivered by Leiningen to the command as its sole argument.
+      Different commands pick out different parameters from the map
+      for use in controlling processes.
+    </p>
+  </conbody>
+</concept>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+"http://docs.oasis-open.org/dita/dtd/topic.dtd">
+<topic id="ug-preface">
+  <title>Plan of the Work</title>
+
+  <body>
+    <p>
+      The basic approach: describe the problem, then describe general
+      strategies for addressing the problem, then describe
+      Leiningen-specific solutions, then give an example.
+    </p>
+
+    <p>
+      Key distinctions: Leiningen <q>task</q> (i.e. command)
+      v. developer's task (e.g. test, document); project map
+      (i.e. configuration) v. command
+    </p>
+
+    <note>
+      Leiningen's terminology should be changed to use <q>command</q>
+      where it currently uses <q>task</q>.  This is because the tasks
+      are not in fact tasks; e.g. <userinput>lein compile</userinput>
+      is a command from the user to Leiningen rather than a task to be
+      accomplished.  We need to reserve the word <q>task</q> to refer
+      to <q>user tasks</q>, the tasks confronting the developer, which
+      appear as problems to be solved.  So for example the first task
+      is merely to configure the project.  The way to solve this
+      problem is to write the project.clj and set up the directory
+      structure.
+    </note>
+
+    <p>
+      Plan of the work:
+      <dl>
+	<dlentry>
+	  <dt>Overview</dt>
+	  <dd>installation, projects, infrastructure</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>Project Maps</dt>
+	  <dd>How the projmap is constructed at runtime; how tasks use
+	  the projmap to drive configuration of the </dd>
+	</dlentry>
+	<dlentry>
+	  <dt>Tasks</dt>
+	  <dd>
+	  Two kinds of task:
+	  <ul>
+	    <li>Dev tasks, e.g coding, testing, QA, etc</li>
+	    <li>Leiningen <q>tasks</q>, i.e. commands</li>
+	  </ul>
+	  General description of tasks; commonly used tasks with examples
+	  </dd>
+	</dlentry>
+	<dlentry>
+	  <dt>Infrastructure:  Respositories</dt>
+	  <dd>role of repos; how to specify, etc. and how Leiningen searches, etc</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>etc</dt>
+	  <dd>etc</dd>
+	</dlentry>
+      </dl>
+    </p>
+  </body>
+</topic>

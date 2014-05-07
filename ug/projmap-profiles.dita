@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"../dtd/concept.dtd">
+<concept id="projconfigmap" xml:lang="en-us">
+  <title>Profiles</title>
+
+  <abstract>
+    Profiles provide a means of customizing the effective project map.
+  </abstract>
+
+  <prolog><metadata>
+    <keywords><indexterm>Profiles</indexterm></keywords>
+  </metadata></prolog>
+
+  <conbody>
+
+    <p>
+      A profile is a named map.  Leiningen predefines several
+      <term>system profiles</term>: :base, :system, :user, :dev, and
+      :provided.  The system profiles are always in effect;
+      user-defined can override and/or extend them.  User-defined
+      profiles can be specified in several places:
+    </p>
+
+    <p>
+      At runtime, Leiningen integrates profiles with the project
+      configuration map of <filepath>project.clj</filepath> to produce
+      the effective project map.
+    </p>
+
+  </conbody>
+</concept>
