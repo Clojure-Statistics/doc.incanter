@@ -2,8 +2,8 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN"
  "../dtd/task.dtd">
 <task id="leininfrastruct" xml:lang="en-us">
-<title>The Leiningen Infrastructure</title>
-<abstract>Leiningen's infrastructure config files, the local repo,
+<title>The Incanter Infrastructure</title>
+<abstract>Incanter's infrastructure config files, the local repo,
 remote repos, etc.  We should also include default profiles such as
 :base, since they are just as fundamental.  This topic provides a
 brief overview of these parts and how they fit together.</abstract>
@@ -12,14 +12,14 @@ brief overview of these parts and how they fit together.</abstract>
 </metadata></prolog>
 <task id="infra.external">
   <title>External</title>
-  <abstract>Directories, files, env vars used by Leiningen</abstract>
+  <abstract>Directories, files, env vars used by Incanter</abstract>
 <taskbody>
 <context>
 <p>Directories: ~/.lein, ~/lein/profiles.d, etc;  ~/.m2/repository; </p>
 <p>Files:  ~/.lein/profiles.clj</p>
 <p>Environment variables</p>
 <p>Command line options</p>
-<p>Anything else Leiningen can take from the env?</p>
+<p>Anything else Incanter can take from the env?</p>
 </context>
 <steps>
 <step><cmd>Do this</cmd>
@@ -31,6 +31,6 @@ brief overview of these parts and how they fit together.</abstract>
 <task id="infra.internal">
   <title>Internal infrastructure: profiles, etc.</title>
   <abstract>Profiles and other internally defined (but overridable)
-  stuff on which Leiningen's functionality depends.</abstract>
+  stuff on which Incanter's functionality depends.</abstract>
 </task>
 </task>

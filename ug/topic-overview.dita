@@ -3,12 +3,12 @@
 "http://docs.oasis-open.org/dita/dtd/topic.dtd">
 <topic id="intro">
   <title>Introduction: Configuration, Customization, Coordination</title>
-  <shortdesc>"Leiningen is for automating Clojure projects without
+  <shortdesc>"Incanter is for automating Clojure projects without
   setting your hair on fire."
 </shortdesc>
   <body>
     <p>
-      Leiningent is a tool for:
+      Incantert is a tool for:
     </p>
 
     <p>
@@ -31,7 +31,7 @@
 	  <dt>Coordination</dt>
 	  <dd>Use it to integrate and coordinate related activities.
 	  For example, quality assurance, code check-in, and issue
-	  tracking are related activities.  Leiningen can help you
+	  tracking are related activities.  Incanter can help you
 	  automate standard procedures such as: first QA check code,
 	  then check it in with a reference to the bug it fixes, and
 	  then close the bug in the Issues Tracker, annotating it with

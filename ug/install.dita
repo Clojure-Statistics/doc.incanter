@@ -11,12 +11,12 @@
 	If your preferred <xref format="html"
 	href="https://github.com/technomancy/leiningen/wiki/Packaging"
 	scope="external">package manager</xref> has a relatively recent
-	version of Leiningen, try that first.  Otherwise you can install
+	version of Incanter, try that first.  Otherwise you can install
 	by hand:
       </p>
 
       <p>
-	Leiningen bootstraps itself using the <cmdname>lein</cmdname>
+	Incanter bootstraps itself using the <cmdname>lein</cmdname>
 	shell script; there is no separate install script. It handles
 	installing its own dependencies, which means the first run will
 	take longer.
@@ -41,7 +41,7 @@
 	There is an <xref
 	href="http://leiningen-win-installer.djpowell.net/"
 	scope="external">installer</xref>
-	which will handle downloading and placing Leiningen and its
+	which will handle downloading and placing Incanter and its
 	dependencies.
       </p>
 

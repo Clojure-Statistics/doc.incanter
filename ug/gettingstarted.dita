@@ -4,7 +4,7 @@
 <topic id="configuring" xml:lang="en-us">
 <title>Getting Started</title>
 <shortdesc>We get started by first exploring a minimal project, and
-then exploring the Leiningen infrastructure.  This should give us a
+then exploring the Incanter infrastructure.  This should give us a
 good general idea of what pieces are involved and how the work
 together.</shortdesc>
 <body>
@@ -13,7 +13,7 @@ together.</shortdesc>
 </p>
 <ul>
   <li>A minimal project</li>
-  <li>The Leiningen infrastructure</li>
+  <li>The Incanter infrastructure</li>
 </ul>
 </body>
 </topic>

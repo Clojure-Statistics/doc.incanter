@@ -6,7 +6,7 @@
 
   <body>
     <p>
-      How does Leiningen figure out the dependency tree?  How does it manage to fetch al l the required jars?  How does it manage to add stuff to the classpath?
+      How does Incanter figure out the dependency tree?  How does it manage to fetch al l the required jars?  How does it manage to add stuff to the classpath?
 
       <dl>
 	<dlentry>

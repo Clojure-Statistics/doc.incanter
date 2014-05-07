@@ -9,12 +9,12 @@ configuration.</shortdesc>
 <keywords><indexterm>New project</indexterm></keywords>
 </metadata></prolog>
 <taskbody>
-<!-- <prereq>First, Install Leiningen.</prereq> -->
+<!-- <prereq>First, Install Incanter.</prereq> -->
 <context>
 <p>
-  A minimal Leiningen project involves: a directory structure, a
+  A minimal Incanter project involves: a directory structure, a
   project configuration file (project.clj), and source code files.  In
-  addition to these static resources, Leiningen dynamically determines
+  addition to these static resources, Incanter dynamically determines
   a project map, a dependency tree, and several other structures.
   This section takes you through some simple steps to exlore these
   elements.
@@ -24,11 +24,11 @@ configuration.</shortdesc>
   <step><cmd>Create a new project by executing: <userinput>lein new app
   my-app</userinput></cmd>
   <info>
-    where <userinput>lein</userinput> is the Leiningen command, and the args are:
+    where <userinput>lein</userinput> is the Incanter command, and the args are:
     <parml>
       <plentry>
 	<pt>new</pt>
-	<pd>a Leiningen <i>task</i>.  To see the syntax and semantics
+	<pd>a Incanter <i>task</i>.  To see the syntax and semantics
 	of this task, run <userinput>lein help new</userinput>.  To
 	see a list of the tasks that come preinstalled, run
 	<userinput>lein help</userinput>.
@@ -39,7 +39,7 @@ configuration.</shortdesc>
 	<pd>is the name of a project template, in this case the
 	default application template.  To see a list of preinstalled
 	templates, run <userinput>lein help new</userinput>.
-	Leiningen's concept of <i>task</i> is discussed in detail
+	Incanter's concept of <i>task</i> is discussed in detail
 	under the X topic of this guide.</pd>
       </plentry>
       <plentry>
@@ -69,7 +69,7 @@ configuration.</shortdesc>
 </pre>
 </stepresult>
 </step>
-<step><cmd>Take a look at the Leiningen project file buy running
+<step><cmd>Take a look at the Incanter project file buy running
 <userinput>less my-app/project.clj</userinput></cmd>
 <stepresult>
   You should see something like:
@@ -102,14 +102,14 @@ configuration.</shortdesc>
     In this minimal example, the only really functional parameter is
     <codeph>:dependencies</codeph>.  This is used to specify which
     libraries/jars the project uses (and thus depends on).  One of the
-    best things about Leiningen is its powerful management of
-    dependencies.  Using the [?] library under the hood, Leiningen is
+    best things about Incanter is its powerful management of
+    dependencies.  Using the [?] library under the hood, Incanter is
     able to construct the entire dependency graph for the project and
-    arrange for everything needed to be installed.  Leiningen's
+    arrange for everything needed to be installed.  Incanter's
     dependency management capabilities are described in X.
   </p>
   <note type="important">
-    Leiningen dependency specification uses the naming conventions
+    Incanter dependency specification uses the naming conventions
     established by Maven: artifact-group/artifact-id.  Etc.  See X for
     details.
   </note>
@@ -189,7 +189,7 @@ configuration.</shortdesc>
   <p>
     Take some time to look this over.  Most of these parameters you
     will never have to deal with, but it's good to have an idea of
-    what sorts of things Leiningen is interested in.
+    what sorts of things Incanter is interested in.
   </p>
 
   <note>
@@ -200,14 +200,14 @@ configuration.</shortdesc>
 
   <note>
     We should distinguish between the project map that results from
-    Leiningen's work and the defproject map in project.clj that forms
+    Incanter's work and the defproject map in project.clj that forms
     the starting point for project map construction.
   </note>
 
 </stepresult>
 </step>
 
-<step><cmd>Tell Leiningen to install all dependencies by running
+<step><cmd>Tell Incanter to install all dependencies by running
 <userinput>lein deps</userinput></cmd>
 <info>Since you already have Clojure installed, you probably won't see any output.</info>
 </step>
@@ -262,9 +262,9 @@ the <codeph>app</codeph> template.  Use your editor, or run <userinput>cat src/m
   need a main entry point; thats what <codeph>-main</codeph> does.
 </note>
 <note type="warning">
-  In case it isn't obvious: to effectively use Leiningen, you need to
+  In case it isn't obvious: to effectively use Incanter, you need to
   know Clojure.  That is, the better your mastery of Clojure, the more
-  you can do with Leiningen.  Leiningen is a Clojure application, after all.
+  you can do with Incanter.  Incanter is a Clojure application, after all.
 </note>
 </stepresult>
 </step>

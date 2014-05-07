@@ -5,12 +5,12 @@
   <title>The Problem</title>
   <body>
     <p>
-      Leiningent is a general <q>CCC</q> (configuration,
+      Incantert is a general <q>CCC</q> (configuration,
       customization, and coordination) tool.
     </p>
 
     <p>
-      This section describes the sort of problems Leiningen is
+      This section describes the sort of problems Incanter is
       designed to solve: configuration, coordination, etc.
     </p>
 

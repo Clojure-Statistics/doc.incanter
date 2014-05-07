@@ -8,20 +8,20 @@
     <p>
       The basic approach: describe the problem, then describe general
       strategies for addressing the problem, then describe
-      Leiningen-specific solutions, then give an example.
+      Incanter-specific solutions, then give an example.
     </p>
 
     <p>
-      Key distinctions: Leiningen <q>task</q> (i.e. command)
+      Key distinctions: Incanter <q>task</q> (i.e. command)
       v. developer's task (e.g. test, document); project map
       (i.e. configuration) v. command
     </p>
 
     <note>
-      Leiningen's terminology should be changed to use <q>command</q>
+      Incanter's terminology should be changed to use <q>command</q>
       where it currently uses <q>task</q>.  This is because the tasks
       are not in fact tasks; e.g. <userinput>lein compile</userinput>
-      is a command from the user to Leiningen rather than a task to be
+      is a command from the user to Incanter rather than a task to be
       accomplished.  We need to reserve the word <q>task</q> to refer
       to <q>user tasks</q>, the tasks confronting the developer, which
       appear as problems to be solved.  So for example the first task
@@ -48,14 +48,14 @@
 	  Two kinds of task:
 	  <ul>
 	    <li>Dev tasks, e.g coding, testing, QA, etc</li>
-	    <li>Leiningen <q>tasks</q>, i.e. commands</li>
+	    <li>Incanter <q>tasks</q>, i.e. commands</li>
 	  </ul>
 	  General description of tasks; commonly used tasks with examples
 	  </dd>
 	</dlentry>
 	<dlentry>
 	  <dt>Infrastructure:  Respositories</dt>
-	  <dd>role of repos; how to specify, etc. and how Leiningen searches, etc</dd>
+	  <dd>role of repos; how to specify, etc. and how Incanter searches, etc</dd>
 	</dlentry>
 	<dlentry>
 	  <dt>etc</dt>

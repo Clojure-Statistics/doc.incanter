@@ -21,8 +21,8 @@
     <p>
       What are the semantics of the (effective) project map?
       Determined entirely by the command implementations.  All
-      Leiningen commands use the effective project map, which is
-      delivered by Leiningen to the command as its sole argument.
+      Incanter commands use the effective project map, which is
+      delivered by Incanter to the command as its sole argument.
       Different commands pick out different parameters from the map
       for use in controlling processes.
     </p>

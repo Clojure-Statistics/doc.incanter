@@ -13,7 +13,7 @@
 <p>
   Lein 1 put all deps in lib, which is on the classpath.  Lein 2 puts
   them all in <filepath>~/.m2/repository</filepath>.  At run time,
-  Leiningen arranges to add the appropriate filepaths to the jars in
+  Incanter arranges to add the appropriate filepaths to the jars in
   <filepath>~/.m2/repository</filepath> to the classpath.
 </p>
 

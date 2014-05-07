@@ -11,7 +11,7 @@
   <body>
     <p>
       What is a trampoline?  What problem do trampolines solve?  How
-      does one use Leiningen's trampoline facility?
+      does one use Incanter's trampoline facility?
     </p>
     <section>
       <title></title>

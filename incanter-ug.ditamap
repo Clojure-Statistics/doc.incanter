@@ -69,7 +69,7 @@
       <topicref chunk="to-content"
 		href="ug/trademarks.dita"></topicref>
     </notices>
-    <preface navtitle="About Incanter">
+    <preface navtitle="About This Work">
       <!-- <topicref chunk="to-content" -->
       <!-- 		href="ug/ug-preface.dita"></topicref> -->
       <topicref chunk="to-content"
@@ -79,14 +79,14 @@
 
   <!-- ################################################################ -->
   <!-- <part chunk="to-content" navtitle="Overview"> -->
-    <chapter chunk="to-content"
-	     href="ug/topic-overview.dita">
-      <topicref href="ug/ccc-problem.dita"/>
-      <topicref href="ug/ccc-solution.dita"/>
-    </chapter>
+    <!-- <chapter chunk="to-content" -->
+    <!-- 	     href="ug/topic-overview.dita"> -->
+    <!--   <topicref href="ug/ccc-problem.dita"/> -->
+    <!--   <topicref href="ug/ccc-solution.dita"/> -->
+    <!-- </chapter> -->
 
     <chapter navtitle="What is Incanter?"
-		href="ug/whatislein.dita">
+		href="ug/whatis.dita">
       <topicref chunk="to-content"
 		href="ug/structndyn.dita">
 	<topicref href="ug/projmap.dita">
@@ -122,65 +122,70 @@
   <!-- </part> -->
 
   <!-- ################################################################ -->
-  <part chunk="to-content" navtitle="Using Leiningen">
+  <part chunk="to-content" navtitle="Using Incanter">
+
     <chapter chunk="to-content"
-	     href="ug/parms.dita">
+    	     href="ug/data.dita">
+      <topicref href="ug/data-importing.dita"/>
+    </chapter>
+
+    <!-- <chapter chunk="to-content" -->
+    <!-- 	     href="ug/parms.dita"> -->
       <!-- <topicref href="ug/config.dita"/> -->
-    </chapter>
+    <!-- </chapter> -->
 
-    <chapter chunk="to-content" href="ug/silp.dita">
-    </chapter>
+    <!-- <chapter chunk="to-content" href="ug/silp.dita"> -->
+    <!-- </chapter> -->
 
-    <chapter chunk="to-content" href="ug/map-project.dita">
-      <topicref href="ug/profiles.dita">
-	<topicref href="ug/profiles-system.dita"/>
-	<topicref href="ug/profiles-user.dita"/>
-      </topicref>
-    </chapter>
+    <!-- <chapter chunk="to-content" href="ug/map-project.dita"> -->
+    <!--   <topicref href="ug/profiles.dita"> -->
+    <!-- 	<topicref href="ug/profiles-system.dita"/> -->
+    <!-- 	<topicref href="ug/profiles-user.dita"/> -->
+    <!--   </topicref> -->
+    <!-- </chapter> -->
 
-    <chapter chunk="to-content" href="ug/commands.dita">
-      <topicref href="ug/commands-defaults.dita"/>
-      <topicref href="ug/plugins.dita"/>
-    </chapter>
-    <chapter chunk="to-content"
-	     href="ug/deps.dita">
-      <topicref href="ug/deps-tree.dita"/>
-      <topicref href="ug/deps-ns.dita"/>
-      <topicref href="ug/classpath.dita"/>
-    </chapter>
-    <chapter chunk="to-content" href="ug/repos.dita">
-    </chapter>
+    <!-- <chapter chunk="to-content" href="ug/commands.dita"> -->
+    <!--   <topicref href="ug/commands-defaults.dita"/> -->
+    <!--   <topicref href="ug/plugins.dita"/> -->
+    <!-- </chapter> -->
+    <!-- <chapter chunk="to-content" -->
+    <!-- 	     href="ug/deps.dita"> -->
+    <!--   <topicref href="ug/deps-tree.dita"/> -->
+    <!--   <topicref href="ug/deps-ns.dita"/> -->
+    <!--   <topicref href="ug/classpath.dita"/> -->
+    <!-- </chapter> -->
+    <!-- <chapter chunk="to-content" href="ug/repos.dita"> -->
+    <!-- </chapter> -->
 
-    <chapter chunk="to-content" href="ug/templates.dita">
-    </chapter>
-    <chapter chunk="to-content" href="ug/repl.dita">
-    </chapter>
-    <chapter chunk="to-content" href="ug/trampolines.dita">
-    </chapter>
+    <!-- <chapter chunk="to-content" href="ug/templates.dita"> -->
+    <!-- </chapter> -->
+    <!-- <chapter chunk="to-content" href="ug/repl.dita"> -->
+    <!-- </chapter> -->
+    <!-- <chapter chunk="to-content" href="ug/trampolines.dita"> -->
+    <!-- </chapter> -->
 
-    <chapter chunk="to-content" href="ug/testing.dita">
-      <topicref href="ug/testing-unit.dita">
-	<topicref href="ug/testing-unit-concepts.dita"/>
-	<topicref href="ug/testing-unit-proc.dita"/>
-      </topicref>
-      <topicref href="ug/testing-system.dita">
-	<topicref href="ug/testing-system-concepts.dita"/>
-	<topicref href="ug/testing-system-proc.dita"/>
-      </topicref>
-      <topicref href="ug/testing-ci.dita">
-	<topicref href="ug/testing-ci-concepts.dita"/>
-	<topicref href="ug/testing-ci-proc.dita"/>
-      </topicref>
-    </chapter>
+    <!-- <chapter chunk="to-content" href="ug/testing.dita"> -->
+    <!--   <topicref href="ug/testing-unit.dita"> -->
+    <!-- 	<topicref href="ug/testing-unit-concepts.dita"/> -->
+    <!-- 	<topicref href="ug/testing-unit-proc.dita"/> -->
+    <!--   </topicref> -->
+    <!--   <topicref href="ug/testing-system.dita"> -->
+    <!-- 	<topicref href="ug/testing-system-concepts.dita"/> -->
+    <!-- 	<topicref href="ug/testing-system-proc.dita"/> -->
+    <!--   </topicref> -->
+    <!--   <topicref href="ug/testing-ci.dita"> -->
+    <!-- 	<topicref href="ug/testing-ci-concepts.dita"/> -->
+    <!-- 	<topicref href="ug/testing-ci-proc.dita"/> -->
+    <!--   </topicref> -->
+    <!-- </chapter> -->
 
-    <chapter chunk="to-content"
-	     href="ug/deployment.dita">
-      <!-- <topicref href="ug/config.dita"/> -->
-    </chapter>
+    <!-- <chapter chunk="to-content" -->
+    <!-- 	     href="ug/deployment.dita"> -->
+    <!-- </chapter> -->
   </part>
 
   <!-- ################################################################ -->
-  <part chunk="to-content" navtitle="Extending Leiningen">
+  <part chunk="to-content" navtitle="Extending Incanter">
     <chapter chunk="to-content"
 	     href="ug/dev-templates.dita">
     </chapter>

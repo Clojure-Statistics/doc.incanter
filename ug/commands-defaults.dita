@@ -13,7 +13,7 @@
 
       <dl>
 	<dlhead>
-	  <dthd>Leiningen 2.3.2 Standard Tasks</dthd>
+	  <dthd>Incanter 2.3.2 Standard Tasks</dthd>
 	  <!-- <ddhd>Resulting Information</ddhd> -->
 	</dlhead>
 	<dlentry>
@@ -97,7 +97,7 @@
 	  <dt>test</dt><dd>Run the project's tests.</dd>
 	</dlentry>
 	<dlentry>
-	  <dt>trampoline</dt><dd>Run a task without nesting the project's JVM inside Leiningen's.</dd>
+	  <dt>trampoline</dt><dd>Run a task without nesting the project's JVM inside Incanter's.</dd>
 	</dlentry>
 	<dlentry>
 	  <dt>uberjar</dt><dd>Package up the project files and all dependencies into a jar file.</dd>
@@ -106,10 +106,10 @@
 	  <dt>update-in</dt><dd>           Perform arbitrary transformations on your project map.</dd>
 	</dlentry>
 	<dlentry>
-	  <dt>upgrade</dt><dd>Upgrade Leiningen to specified version or latest stable.</dd>
+	  <dt>upgrade</dt><dd>Upgrade Incanter to specified version or latest stable.</dd>
 	</dlentry>
 	<dlentry>
-	  <dt>version</dt><dd>Print version for Leiningen and the current JVM.</dd>
+	  <dt>version</dt><dd>Print version for Incanter and the current JVM.</dd>
 	</dlentry>
 	<dlentry>
 	  <dt>with-profile</dt><dd>Apply the given task with the profile(s) specified.</dd>

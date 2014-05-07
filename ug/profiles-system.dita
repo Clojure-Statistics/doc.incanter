@@ -13,7 +13,7 @@
 
   <body>
     <p>
-      Several profiles are predefined by Leiningen:
+      Several profiles are predefined by Incanter:
     </p>
     <section>
       <title>:base</title>

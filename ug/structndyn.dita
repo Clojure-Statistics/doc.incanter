@@ -2,13 +2,13 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "../dtd/concept.dtd">
 <concept id="structndyn" xml:lang="en-us">
-  <title>Structure &amp; Dynamics of Leiningen Projects</title>
+  <title>Structure &amp; Dynamics of Incanter Projects</title>
   <shortdesc>
   </shortdesc>
   <prolog>
     <metadata>
       <keywords>
-	<indexterm>Leiningen kernel</indexterm>
+	<indexterm>Incanter kernel</indexterm>
 	<indexterm>Architecture</indexterm>
 	<indexterm>Infrastructure</indexterm>
       </keywords>

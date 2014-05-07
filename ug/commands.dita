@@ -3,7 +3,7 @@
  "../dtd/concept.dtd">
 <concept id="commands" xml:lang="en-us">
 <title>Commands</title>
-<shortdesc>Leiningen <term>commands</term> (formerly <q>tasks</q>) expose functionality to the user.</shortdesc>
+<shortdesc>Incanter <term>commands</term> (formerly <q>tasks</q>) expose functionality to the user.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm>Command</indexterm></keywords>
 </metadata></prolog>

@@ -3,7 +3,7 @@
 "../dtd/concept.dtd">
 <concept id="projmap" xml:lang="en-us">
   <title>The Project Map</title>
-  <shortdesc>The central concept of Leiningen is the <term>project
+  <shortdesc>The central concept of Incanter is the <term>project
   map</term>.</shortdesc>
   <prolog><metadata>
     <keywords><indexterm>Project<indexterm>map</indexterm></indexterm></keywords>

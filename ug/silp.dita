@@ -3,9 +3,9 @@
 "../dtd/concept.dtd">
 <concept id="silp" xml:lang="en-us">
 
-  <title>Structure and Interpretation of Leiningen Projects</title>
+  <title>Structure and Interpretation of Incanter Projects</title>
 
-  <abstract>Abstract: a project in Leiningen has a static structure
+  <abstract>Abstract: a project in Incanter has a static structure
   and a dynamic (runtime) interpretation.</abstract>
 
   <prolog><metadata>

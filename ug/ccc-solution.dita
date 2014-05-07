@@ -6,9 +6,9 @@
   <body>
 
     <p>
-      This section describes in general how Leiningen solves the
+      This section describes in general how Incanter solves the
       problems described in the previous topic.  I.e. it's more about
-      the strategies Leiningen adopts than the specific implementation
+      the strategies Incanter adopts than the specific implementation
       techniques; they are the subject of the remainder of this book..
     </p>
 

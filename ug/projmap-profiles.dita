@@ -15,7 +15,7 @@
   <conbody>
 
     <p>
-      A profile is a named map.  Leiningen predefines several
+      A profile is a named map.  Incanter predefines several
       <term>system profiles</term>: :base, :system, :user, :dev, and
       :provided.  The system profiles are always in effect;
       user-defined can override and/or extend them.  User-defined
@@ -23,7 +23,7 @@
     </p>
 
     <p>
-      At runtime, Leiningen integrates profiles with the project
+      At runtime, Incanter integrates profiles with the project
       configuration map of <filepath>project.clj</filepath> to produce
       the effective project map.
     </p>

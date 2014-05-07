@@ -6,12 +6,12 @@
 
   <body>
     <p>
-      Compare: in C (makefiles), dependencies are source files.  In Leiningen,
+      Compare: in C (makefiles), dependencies are source files.  In Incanter,
       dependencies are jars.
     </p>
 
     <p>Problem: how to identify dependenies?  Solution: use
-    Leiningen's convention of <q>GROUP-ID/ARTIFACT-ID "VERSION"</q> is
+    Incanter's convention of <q>GROUP-ID/ARTIFACT-ID "VERSION"</q> is
     based on Maven.  See <xref scope="external"
     href="http://maven.apache.org/glossary.html#Artifact">Maven
     Glossary</xref>, <xref scope="external"
@@ -26,12 +26,12 @@
     </p>
 
     <p>
-      Problem: how does Leiningen search?  Soln: describe :repos.
+      Problem: how does Incanter search?  Soln: describe :repos.
       Something about using local repos.
     </p>
 
     <p>
-      Problem: what to do if Leiningen fails to find the dependency.
+      Problem: what to do if Incanter fails to find the dependency.
       Interpreting error messages.
     </p>
 

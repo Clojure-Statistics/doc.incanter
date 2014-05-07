@@ -34,7 +34,7 @@
   <conbody>
 
     <p>
-      Leiningen command implementations receive the effective
+      Incanter command implementations receive the effective
       project map as an argument when they are invoked.
     </p>
 

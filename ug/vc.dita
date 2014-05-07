@@ -4,7 +4,7 @@
 <concept id="versioncontrol" xml:lang="en-us">
   <title>Version Control and Release Management</title>
   <shortdesc>
-      Leiningen is a configuration management tool; how does it interact
+      Incanter is a configuration management tool; how does it interact
       with version control and release management?.
   </shortdesc>
   <!--INDEX ENTRIES: Below is the tagging needed for index entries.  To add an
@@ -91,7 +91,7 @@
       </p>
 
       <p>
-	This article discusses how Leiningen might be used in such an
+	This article discusses how Incanter might be used in such an
 	environment.
       </p>
       </section>
