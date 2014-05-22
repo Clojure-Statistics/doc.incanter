@@ -33,18 +33,41 @@ http://dita-ot.github.io/1.8/readme/tranforming-dita-content.html.
 *CAVEAT* You have to cd to the kit root dir and run `startcmd.sh` (or
  .bat) first.
 
-I use the ant technique
-(http://dita-ot.github.io/1.8/readme/DITA-antuse.html), so my command
+I use the [ant technique](http://dita-ot.github.io/1.8/readme/DITA-antuse.html) ([paramters](http://dita-ot.github.io/1.8/readme/dita-ot_ant_properties.html), so my command
 line is:
 
-    DITA_HOME $ ant -Dargs.input=/path/to/leiningen-doc/ugbook.ditamap -Dtranstype=pdf
+    DITA_HOME $ ant -Dargs.input=path/to/foobar.ditamap -Doutput.dir=path/to/output -Dtranstype=pdf
 
-Must be executed from the toolkit's root dir; haven't figured out how
-to get around that yet.  This puts the output to DITA_HOME/out.  I
-haven't been able to figure out how to specify a different output dir.
 Change the transtype parm to change the format,
 e.g. -Dtranstype=xhtml. (See
 http://dita-ot.github.io/1.8/readme/AvailableTransforms.html)
+
+To get a simple command executable from your working directory:
+
+* export DITA_HOME=/absolute/path/to/dita-ot
+* copy $DITA_HOME/startcmd.sh to somewhere on your path, e.g. ~/bin/ditaot.sh
+* make sure ditaot.sh is executable: $ chmod ug+x ditaot.sh
+* edit ditaot.sh: remove the last two lines (`cd "$DITA_DIR"` and `"$SHELL"`) and add:
+
+```
+# cygwin:
+INFILE=`cygpath -wa ./$1`
+OUTDIR=`cygpath -wa ./target`
+set -x
+(cd "$DITA_DIR";ant -Dargs.input=$INFILE -Doutput.dir=$OUTDIR -Dtranstype=$2);
+
+## *nix:
+# (cd "$DITA_DIR";ant -Dargs.input=`pwd`/$1 -Doutput.dir=`pwd`/target -Dtranstype=$2);
+
+## windows
+# you're on your own here
+```
+
+Then, assuming your current directory contains your ditamap driver file, do:
+
+```
+$ ditatot foobar.ditamap pdf
+```
 
 For PDF output see also http://dita-ot.github.io/1.8/readme/ant-parameters-pdf2-transformation.html
 
