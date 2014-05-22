@@ -63,60 +63,49 @@
       <toc/>
     </booklists>
 
-    <bookabstract chunk="to-content" href="ug/abstract.dita"/>
+    <bookabstract chunk="to-content" href="topics/abstract.dita"/>
     <notices chunk="to-content"
-	     href="ug/notices.dita">
+	     href="topics/notices.dita">
       <topicref chunk="to-content"
-		href="ug/trademarks.dita"></topicref>
+		href="topics/trademarks.dita"></topicref>
     </notices>
     <preface navtitle="About This Work">
       <!-- <topicref chunk="to-content" -->
-      <!-- 		href="ug/ug-preface.dita"></topicref> -->
+      <!-- 		href="topics/ug-preface.dita"></topicref> -->
       <topicref chunk="to-content"
-		href="ug/plan.dita"></topicref>
+		href="topics/plan.dita"></topicref>
     </preface>
   </frontmatter>
 
   <!-- ################################################################ -->
   <!-- <part chunk="to-content" navtitle="Overview"> -->
     <!-- <chapter chunk="to-content" -->
-    <!-- 	     href="ug/topic-overview.dita"> -->
-    <!--   <topicref href="ug/ccc-problem.dita"/> -->
-    <!--   <topicref href="ug/ccc-solution.dita"/> -->
+    <!-- 	     href="topics/topic-overview.dita"> -->
+    <!--   <topicref href="topics/ccc-problem.dita"/> -->
+    <!--   <topicref href="topics/ccc-solution.dita"/> -->
     <!-- </chapter> -->
 
     <chapter navtitle="What is Incanter?"
-		href="ug/whatis.dita">
-      <topicref chunk="to-content"
-		href="ug/structndyn.dita">
-	<topicref href="ug/projmap.dita">
-	   <topicref href="ug/projmap-config.dita"/>
-	   <topicref href="ug/projmap-profiles.dita"/>
-	   <topicref href="ug/projmap-effective.dita"/>
-	   <topicref href="ug/projmapsemantics.dita"/>
-	 </topicref>
-	 <topicref href="ug/commands.dita"/>
-	 <topicref href="ug/leininfrastruct.dita"/>
-      </topicref>
-      <topicref href="ug/gettingstarted.dita">
-	<topicref href="ug/install.dita"/>
-	<topicref href="ug/tour.dita"/>
-	<!-- <topicref href="ug/leininfrastruct.dita"/> -->
+		href="topics/whatis.dita">
+      <topicref href="topics/gettingstarted.dita">
+	<topicref href="topics/install.dita"/>
+	<topicref href="topics/tour.dita"/>
+	<!-- <topicref href="topics/leininfrastruct.dita"/> -->
       </topicref>
     </chapter>
 
 
     <!-- <chapter chunk="to-content" -->
     <!-- 	     nav-title="Projects" -->
-    <!-- 	     href="ug/projects.dita"> -->
-    <!--   <topicref href="ug/projstruct.dita"/> -->
-    <!--   <topicref href="ug/projfile.dita"/> -->
+    <!-- 	     href="topics/projects.dita"> -->
+    <!--   <topicref href="topics/projstruct.dita"/> -->
+    <!--   <topicref href="topics/projfile.dita"/> -->
     <!-- </chapter> -->
 
     <!-- <chapter chunk="to-content" -->
     <!-- 	     navtitle="Options " -->
-    <!-- 	     href="ug/options.dita"> -->
-    <!--   <topicref href="ug/options.dita"/> -->
+    <!-- 	     href="topics/options.dita"> -->
+    <!--   <topicref href="topics/options.dita"/> -->
     <!-- </chapter> -->
 
   <!-- </part> -->
@@ -125,78 +114,78 @@
   <part chunk="to-content" navtitle="Using Incanter">
 
     <chapter chunk="to-content"
-    	     href="ug/data.dita">
-      <topicref href="ug/data-importing.dita"/>
+    	     href="topics/data.dita">
+      <topicref href="topics/data-importing.dita"/>
     </chapter>
 
     <!-- <chapter chunk="to-content" -->
-    <!-- 	     href="ug/parms.dita"> -->
-      <!-- <topicref href="ug/config.dita"/> -->
+    <!-- 	     href="topics/parms.dita"> -->
+      <!-- <topicref href="topics/config.dita"/> -->
     <!-- </chapter> -->
 
-    <!-- <chapter chunk="to-content" href="ug/silp.dita"> -->
+    <!-- <chapter chunk="to-content" href="topics/silp.dita"> -->
     <!-- </chapter> -->
 
-    <!-- <chapter chunk="to-content" href="ug/map-project.dita"> -->
-    <!--   <topicref href="ug/profiles.dita"> -->
-    <!-- 	<topicref href="ug/profiles-system.dita"/> -->
-    <!-- 	<topicref href="ug/profiles-user.dita"/> -->
+    <!-- <chapter chunk="to-content" href="topics/map-project.dita"> -->
+    <!--   <topicref href="topics/profiles.dita"> -->
+    <!-- 	<topicref href="topics/profiles-system.dita"/> -->
+    <!-- 	<topicref href="topics/profiles-user.dita"/> -->
     <!--   </topicref> -->
     <!-- </chapter> -->
 
-    <!-- <chapter chunk="to-content" href="ug/commands.dita"> -->
-    <!--   <topicref href="ug/commands-defaults.dita"/> -->
-    <!--   <topicref href="ug/plugins.dita"/> -->
+    <!-- <chapter chunk="to-content" href="topics/commands.dita"> -->
+    <!--   <topicref href="topics/commands-defaults.dita"/> -->
+    <!--   <topicref href="topics/plugins.dita"/> -->
     <!-- </chapter> -->
     <!-- <chapter chunk="to-content" -->
-    <!-- 	     href="ug/deps.dita"> -->
-    <!--   <topicref href="ug/deps-tree.dita"/> -->
-    <!--   <topicref href="ug/deps-ns.dita"/> -->
-    <!--   <topicref href="ug/classpath.dita"/> -->
+    <!-- 	     href="topics/deps.dita"> -->
+    <!--   <topicref href="topics/deps-tree.dita"/> -->
+    <!--   <topicref href="topics/deps-ns.dita"/> -->
+    <!--   <topicref href="topics/classpath.dita"/> -->
     <!-- </chapter> -->
-    <!-- <chapter chunk="to-content" href="ug/repos.dita"> -->
-    <!-- </chapter> -->
-
-    <!-- <chapter chunk="to-content" href="ug/templates.dita"> -->
-    <!-- </chapter> -->
-    <!-- <chapter chunk="to-content" href="ug/repl.dita"> -->
-    <!-- </chapter> -->
-    <!-- <chapter chunk="to-content" href="ug/trampolines.dita"> -->
+    <!-- <chapter chunk="to-content" href="topics/repos.dita"> -->
     <!-- </chapter> -->
 
-    <!-- <chapter chunk="to-content" href="ug/testing.dita"> -->
-    <!--   <topicref href="ug/testing-unit.dita"> -->
-    <!-- 	<topicref href="ug/testing-unit-concepts.dita"/> -->
-    <!-- 	<topicref href="ug/testing-unit-proc.dita"/> -->
+    <!-- <chapter chunk="to-content" href="topics/templates.dita"> -->
+    <!-- </chapter> -->
+    <!-- <chapter chunk="to-content" href="topics/repl.dita"> -->
+    <!-- </chapter> -->
+    <!-- <chapter chunk="to-content" href="topics/trampolines.dita"> -->
+    <!-- </chapter> -->
+
+    <!-- <chapter chunk="to-content" href="topics/testing.dita"> -->
+    <!--   <topicref href="topics/testing-unit.dita"> -->
+    <!-- 	<topicref href="topics/testing-unit-concepts.dita"/> -->
+    <!-- 	<topicref href="topics/testing-unit-proc.dita"/> -->
     <!--   </topicref> -->
-    <!--   <topicref href="ug/testing-system.dita"> -->
-    <!-- 	<topicref href="ug/testing-system-concepts.dita"/> -->
-    <!-- 	<topicref href="ug/testing-system-proc.dita"/> -->
+    <!--   <topicref href="topics/testing-system.dita"> -->
+    <!-- 	<topicref href="topics/testing-system-concepts.dita"/> -->
+    <!-- 	<topicref href="topics/testing-system-proc.dita"/> -->
     <!--   </topicref> -->
-    <!--   <topicref href="ug/testing-ci.dita"> -->
-    <!-- 	<topicref href="ug/testing-ci-concepts.dita"/> -->
-    <!-- 	<topicref href="ug/testing-ci-proc.dita"/> -->
+    <!--   <topicref href="topics/testing-ci.dita"> -->
+    <!-- 	<topicref href="topics/testing-ci-concepts.dita"/> -->
+    <!-- 	<topicref href="topics/testing-ci-proc.dita"/> -->
     <!--   </topicref> -->
     <!-- </chapter> -->
 
     <!-- <chapter chunk="to-content" -->
-    <!-- 	     href="ug/deployment.dita"> -->
+    <!-- 	     href="topics/deployment.dita"> -->
     <!-- </chapter> -->
   </part>
 
   <!-- ################################################################ -->
   <part chunk="to-content" navtitle="Extending Incanter">
     <chapter chunk="to-content"
-	     href="ug/dev-templates.dita">
+	     href="topics/dev-templates.dita">
     </chapter>
     <chapter chunk="to-content"
-	     href="ug/dev-plugins.dita">
+	     href="topics/dev-plugins.dita">
     </chapter>
     <chapter chunk="to-content"
-	     href="ug/dev-profiles.dita">
+	     href="topics/dev-profiles.dita">
     </chapter>
     <chapter chunk="to-content"
-	     href="ug/dev-embed.dita">
+	     href="topics/dev-embed.dita">
     </chapter>
   </part>
 
@@ -204,7 +193,7 @@
     <topicmeta>
       <navtitle>Appendices</navtitle>
     </topicmeta>
-    <appendix chunk="to-content" href="ug/contrib.dita"/>
+    <appendix chunk="to-content" href="topics/contrib.dita"/>
   </appendices>
 
   <backmatter>

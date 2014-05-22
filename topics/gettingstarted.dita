@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+"../../dtd/topic.dtd">
+<topic id="configuring" xml:lang="en-us">
+  <title>Getting Started</title>
+  <shortdesc>
+    There are several ways to use Incanter.
+  </shortdesc>
+
+  <body>
+    <p>
+      To use Incanter you must understand the basics of Clojure.
+      Since there are many tutorials and guides available on the web
+      for Clojure beginners we will not cover Clojure basics here.
+    </p>
+
+    <p>
+      There are several ways to use Incanter:
+    </p>
+    <ul>
+      <li><xref href="http://incanter.org/downloads/"
+      format="html">Executables are available</xref> for the <xref
+      href="http://incanter.org/downloads/Incanter.dmg"
+      format="binary">Mac OS X</xref>, Windows, and Java platforms.
+      Executables can be started by double-clicking on the file, so
+      this is probably the easiest way to get started.  The drawback
+      is that everything is stuffed into a single file, so you won't
+      have local access to data, documentation, and examples.</li>
+      <li>The "prebuilt distribution" is a deployable bundle of
+      directories containing everything you need to run Incanter.
+      Download and unpack/unzip it, and you will end up with a
+      structure including the following directories:
+      <ul>
+	<li><filepath>data</filepath> contains a set of data files you can use to explore Incanter's capabilities</li>
+	<li><filepath>docs</filepath> contains a formatted <q>cheatsheet</q></li>
+	<li><filepath>examples</filepath> contains some code samples</li>
+	<li><filepath>lib</filepath> contains the Java jar files upon which Incanter depends</li>
+	<li><filepath>modules</filepath> contains the Clojure source for Incanter (more on these below)</li>
+	<li><filepath>script</filepath> contains some convenience shell scripts</li>
+    </ul>
+  </body>
+</topic>
